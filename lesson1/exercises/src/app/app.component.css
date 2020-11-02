@@ -1,0 +1,14 @@
+fav-links {
+  text-align: center;
+  display: block;
+  align-items: center;
+}
+
+.container {
+  background-color: rgb(151, 204, 53);
+  border: 3px solid black;
+}
+
+* {
+  box-sizing: border-box;
+}

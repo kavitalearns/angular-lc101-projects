@@ -1,11 +1,38 @@
 h3 {
-   color: brown;
-}
-
-img {
-
+  color: brown;
 }
 
 .photos {
-   text-align: center;
+  text-align: center;
+  align-items: center;
+  
+}
+
+img {
+   align-items: center;
+  float: left;
+  width: 200px;
+  padding: 5px;
+  height: 200px;
+   display: inline-block;
+}
+
+.row {
+   align-items: center;
+    
+}
+
+/* .column {
+  float: left;
+  width: 150px;
+  padding: 5px;
+  height: 200px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
+* {
+  box-sizing: border-box;
 }
